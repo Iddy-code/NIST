@@ -35,7 +35,9 @@ class Deck:
   def shuffle(self):
       if len(self.cards)>1:
         random.shuffle(self.cards)
-    
+  def newtes():
+    return "sd"
+
   def deal(self, number):
     cards_dealt=[]
     for x in range(number):
